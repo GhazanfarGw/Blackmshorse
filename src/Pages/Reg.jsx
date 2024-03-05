@@ -87,7 +87,7 @@ const Register = () => {
   };
 
     const postDataToAPI = async (firstname, phone, email, pickuplocation, destination, godate, hour, minute) => {
-    const response = await fetch('http://localhost:4000/user/add', {
+    const response = await fetch('https://backend-blackhors.adaptable.app/user/add', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
