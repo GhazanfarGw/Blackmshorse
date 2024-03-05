@@ -41,7 +41,7 @@ function Post() {
               centerPadding: "0px",
               infinite: true,
               autoplay: true,
-              autoplaySpeed: 2000,
+              autoplaySpeed: 3500,
               initialSlide: 1
               
             }
@@ -53,7 +53,7 @@ function Post() {
               slidesToScroll: 1,
               infinite: true,
               autoplay: true,
-              autoplaySpeed: 1000,
+              autoplaySpeed: 3500,
               centerPadding: "0px",
               dots: true,
             }
