@@ -40,7 +40,7 @@ function Logo({ isScrolled }) {
     <>
     
       {isScrolled ? (
-        <header className="fixed z-10 md:px-10 px-3 w-full duration-300 mx-auto items-center bg-[#fff] text-black overflow-x-hidden shadow-md py-2 scroll-smooth">
+        <header className="fixed z-10 md:px-10 px-3 w-full duration-300 mx-auto items-center bg-[#fff] text-black overflow-x-hidden shadow-md md:py-2 pt-2 scroll-smooth">
         <div onClick={handleScrollToTop} className="mx-auto items-center overflow-x-hidden">
           <div className="flex items-center">
             <div className="flex items-center max-w-screen-2xl justify-between mx-auto w-full">
