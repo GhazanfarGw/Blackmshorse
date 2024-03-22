@@ -4,7 +4,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Tooltip } from '@mui/material'
 import Whatsapp from './Whatsapp';
-import Minivan from './minivan'
 
 function Post() {
     const settings = {
@@ -41,7 +40,7 @@ function Post() {
               centerPadding: "0px",
               infinite: true,
               autoplay: true,
-              autoplaySpeed: 3500,
+              autoplaySpeed: 4000,
               initialSlide: 1
               
             }
@@ -53,7 +52,7 @@ function Post() {
               slidesToScroll: 1,
               infinite: true,
               autoplay: true,
-              autoplaySpeed: 3500,
+              autoplaySpeed: 4000,
               centerPadding: "0px",
               dots: true,
             }
@@ -68,7 +67,7 @@ function Post() {
           Fleet
         </p>
         <h1 className='lg:text-5xl md:text-4xl sm:text-4xl text-3xl text-black md:pt-3 lg:pt-3'>
-          SEDAN
+          SEDAN & MINIVAN
         </h1>
       </div>
       <div data-aos="zoom-in-up" data-aos-delay="300" className='max-w-screen-xl items-center mx-auto'>
@@ -102,38 +101,36 @@ function Post() {
               </div>
             </Tooltip>
             <Tooltip placement='bottom' className='shadow-2xl py-5 justify-center items-center px-3'>
-              <img src='./Sedan/bmw_series_7.jpg' alt='Image'/>
+              <img src='./minivan/Mercedes_v_class.jpg' alt='Image'/>
               <div className='lg:px-3 md:px-3 sm:px-2'>
                 <h1 className='text-black text-xl pt-5 font uppercase'>
-                  BWM SERIES 7
+                  Mercedes V-Class
                 </h1>
                 <p className='font-bold text-[#7a7a7a]'>
-                  up to 3 passengers
+                  up to 6 passengers
                 </p>
-                <button type='butt' disabled className="flex w-full items-center mt-5 cursor-not-allowed mx-auto justify-center bg-[#948564] hover:bg-opacity-80 px-4 py-2 text-white rounded-md">
-                  Coming...
-                </button>
+                <div className="pt-5">
+                  <Whatsapp phoneNumber="+447375150590" />
+                </div>
               </div>
             </Tooltip>
             <Tooltip placement='bottom' className='shadow-2xl py-5 justify-center items-center px-3'>
-              <img src='./Sedan/tesla_model_y.jpg' alt='Image'/>
+              <img src='./minivan/v_class minvan Silver.jpg' alt='Image'/>
               <div className='lg:px-3 md:px-3 sm:px-2'>
                 <h1 className='text-black text-xl pt-5 font uppercase'>
-                  Tesla Model Y
+                  Mercedes V-Class Silver
                 </h1>
                 <p className='font-bold text-[#7a7a7a]'>
-                  up to 4 passengers
+                  up to 6 passengers
                 </p>
-                <button type='butt' disabled className="flex w-full items-center mt-5 cursor-not-allowed mx-auto justify-center bg-[#948564] hover:bg-opacity-80 px-4 py-2 text-white rounded-md">
-                  Coming...
-                </button>
+                <div className="pt-5">
+                  <Whatsapp phoneNumber="+447375150590" />
+                </div>
               </div>
             </Tooltip>
-
         </Slider>
       </div>
     </div>
-    <Minivan/>
     </>
   )
 }
